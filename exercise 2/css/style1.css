@@ -1,0 +1,297 @@
+.currentMenuIteam1 {
+    font-weight: normal;
+
+}
+.currentMenuIteam2 {
+    font-weight: 900;
+}
+.firstInfoPic {
+	width: 100%;
+	height: 430px;
+}
+
+.InfoHeader:hover {
+	text-decoration: underline;
+}
+
+.firstInfo {
+	margin-bottom: 7%;
+}
+
+.firstInfoHeader {
+	font-size: 36px;
+	text-align: center;
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
+
+.FirstWrapper {
+	margin-left: 7%;
+	margin-right: 7%;
+}
+
+.firstInfoText {
+	font-size: 20px;
+	text-align: justify;
+}
+
+.InfoIteam {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin-bottom: 7%;
+}
+
+.InfoIteamPart {
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    margin-bottom: 7%;
+}
+
+.importantInfo {
+	font-weight: 900;
+}
+
+.InfoHeader {
+	font-size: 26px;
+	text-decoration: none;
+    color: black;
+}
+
+.info {
+    display: grid;
+    font-size: 20px;
+    grid-template-rows: 3fr 1fr 1fr 1fr 1fr 1fr;
+    margin-left: 10%;
+    grid-row-gap: 10px;
+}
+
+.orderButn {
+    justify-self: end;
+    background-color: transparent;
+    text-decoration: none;
+    color: black;
+    border: solid 3px black;
+    text-align: center;
+    width: 100%;
+    height: max-content;
+    font-size: 20px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.info p {
+	margin: 0;
+}
+
+.registration {
+	margin-top: 0;
+	margin-bottom: 7%;
+}
+
+.registrationWrapper {
+    background-image: none;
+    background-color: #EAE8E8;
+    color: black;
+    height: 100%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.lineWithStars {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.stars {
+	display: flex;
+}
+
+.star {
+	width: 20px;
+	height: 20px;
+	justify-content: flex-end;
+	padding-right: 1px;
+}
+
+.sectionHeader {
+	font-size: 36px;
+}
+
+.registrationText {
+    margin-bottom: 6%;
+    font-size: 25px;
+}
+
+.contentRegistration {
+	margin-bottom: 0;
+}
+
+.formButton {
+	background-color: transparent;
+    border: solid 3px black;
+    color: black;
+    font-size: 15px;
+    padding: 2%;
+}
+
+.formIteam {
+    border: none;
+}
+
+.InfoIteamImgBig {
+	display: none;
+}
+
+@media screen and (max-width: 1100px) {
+
+	.InfoIteam {
+    grid-template-columns: 1fr 4fr;
+}
+
+.InfoIteamPart {
+    grid-template-columns: 1fr;
+}
+
+.orderButn {
+    margin-left: 10%;
+    margin-top: 6%;
+}
+}
+
+@media screen and (max-width: 900px) {
+
+	.wrapper {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+.lineWithStars {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+
+.InfoIteam {
+    grid-template-columns: 3fr 4fr;
+}
+
+.InfoIteamImgSmall {
+	width: 100%;
+}
+}
+
+@media screen and (max-width: 830px) {
+
+    .firstInfoPic {
+    width: 100%;
+    height: auto;
+}
+
+	.InfoIteamImgBig {
+		display: block;
+		width: 100%;
+	}
+
+	.InfoIteamImgSmall {
+		display: none;
+	}
+
+	.FirstWrapper {
+		margin-left: 0%;
+		margin-right: 0%;
+	}
+
+	.firstInfoText {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	.InfoIteamPart {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	.InfoIteam {
+    	grid-template-columns: 1fr;
+    	grid-row-gap: 6%;
+	}
+
+	.info {
+    margin-left: 0%;
+}
+
+.orderButn {
+    margin-left: 0%;
+    margin-top: 6%;
+}
+
+.info {
+    grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.lineWithStars {
+    grid-template-columns: 1fr 2fr;
+}
+}
+
+@media screen and (max-width: 720px) {
+
+	.registrationWrapper {
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+	.registrationForm {
+    display: flex;
+    flex-direction: column;
+    border-color: white;
+}
+.formIteam {
+    padding-left: 5%;
+    padding: 2%;
+    margin-bottom: 5%;
+}
+
+.lineWithStars {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+}
+
+@media screen and (max-width: 500px) {
+
+	.firstInfoHeader {
+    font-size: 26px;
+}
+
+.InfoHeader {
+    font-size: 20px;
+}
+
+.firstInfoText {
+    font-size: 15px;
+    text-align: center;
+}
+
+	.formButton {
+    border: solid 1px black;
+}
+
+.registrationText {
+    font-size: 20px;
+}
+
+.sectionHeader {
+    font-size: 26px;
+}
+
+.lineWithStars {
+    grid-template-columns: 2fr 1fr;
+}
+}
+
+@media screen and (max-width: 400px) {
+
+.info {
+    font-size: 15px;
+}
+}
